@@ -11,14 +11,14 @@ import { defineComponent, defineCustomElement, h } from 'vue'
 
 // customElements.define('v-login', MyVueElement)
 
-export default {
-  // 在此提供正常的 Vue 组件选项
-  props: {},
-  emits: {},
-  template: `<h4>wwww</h4>`,
-  // defineCustomElement 独有特性: CSS 会被注入到隐式根 (shadow root) 中
-  // styles: [`/* inlined css */`]
-};
+// export default {
+//   // 在此提供正常的 Vue 组件选项
+//   props: {},
+//   emits: {},
+//   template: `<h4>wwww</h4>`,
+//   // defineCustomElement 独有特性: CSS 会被注入到隐式根 (shadow root) 中
+//   // styles: [`/* inlined css */`]
+// };
 
 // const app = createApp({});
 // app.component('v-login', {
@@ -58,3 +58,13 @@ export default {
 //     <div>特效师</div>
 //   `,
 // });
+
+
+export default defineComponent({
+  name: 'Login',
+  render() {
+    return (
+      <div>test</div>
+    );
+  }
+})

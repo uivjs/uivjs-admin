@@ -31,7 +31,13 @@ npm run bootstrap
 npm run build
 ```
 
-4. 运行实例
+4. 编译包
+
+```bash
+npm run watch:login
+```
+
+5. 运行实例
 
 ```bash
 # 或者根目录运行
