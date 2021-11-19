@@ -1,0 +1,12 @@
+{
+  "name": "@speedaf-vui/login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "author": "jaywcjlove",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.0.0"
+  }
+}
