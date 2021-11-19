@@ -31,7 +31,7 @@ npm run bootstrap
 npm run build
 ```
 
-4. 编译包
+4. 监听编译包
 
 ```bash
 npm run watch:login

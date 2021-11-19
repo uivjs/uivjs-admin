@@ -1,11 +1,7 @@
 <template>
   <div>
-    <v-login>
-    </v-login>
-    <my-com>
-      test22
-    </my-com>
-    <div>
+    <s-login>w</s-login>
+    <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
     </div>
@@ -14,26 +10,13 @@
 </template>
 <script>
 import { defineComponent } from 'vue'
-import '@speedaf-vui/login';
-// import VLogin from '@speedaf-vui/login';
+import SLogin from '@speedaf-vui/login';
 
-
-const MyCom = defineComponent({
-  name: 'MyCom',
-  template: `
-    <div>特效师</div>
-  `,
-})
-
-// console.log('VLogin::', VLogin)
-// eslint-disable-next-line
-// import VLogin from '@speedaf-vui/login'
 export default defineComponent({
   components: {
-    // VLogin,
-    MyCom
+    's-login': SLogin,// HelloWorld
   }
-})
+});
 </script>
 <style>
 #app {
