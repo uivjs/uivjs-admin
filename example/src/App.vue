@@ -1,6 +1,6 @@
 <template>
   <div>
-    <s-login>w</s-login>
+    <s-login title="猎豹系统登录界面"></s-login>
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
@@ -14,7 +14,7 @@ import SLogin from '@speedaf-vui/login';
 
 export default defineComponent({
   components: {
-    's-login': SLogin,// HelloWorld
+    SLogin,
   }
 });
 </script>

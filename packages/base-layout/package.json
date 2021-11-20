@@ -1,13 +1,17 @@
 {
-  "name": "@speedaf-vui/login",
+  "name": "@speedaf-vui/base-layout",
   "version": "1.0.0",
-  "description": "登录页面组件",
+  "description": "基础布局组件",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "author": "jaywcjlove",
   "license": "ISC",
   "peerDependencies": {
     "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "cookiejs": "2.0.1",
+    "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
     "vue": "^3.0.0"

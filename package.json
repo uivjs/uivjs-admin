@@ -7,6 +7,7 @@
     "start": "lerna exec \"npm run serve\" --scope hello-world",
     "build": "lerna exec \"tsbb build --use-vue\" --scope @speedaf-vui/*",
     "watch:login": "lerna exec \"tsbb watch --use-vue\" --scope @speedaf-vui/login",
+    "watch:base-layout": "lerna exec \"tsbb watch --use-vue\" --scope @speedaf-vui/base-layout",
     "hoist": "lerna bootstrap --hoist",
     "bootstrap": "lerna bootstrap"
   },
