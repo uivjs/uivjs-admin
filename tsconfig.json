@@ -20,5 +20,11 @@
     "isolatedModules": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true
-  }
+  },
+  "exclude": [
+    "example",
+    "packages/*/cjs",
+    "packages/*/lib",
+    "packages/*/esm"
+  ]
 }
