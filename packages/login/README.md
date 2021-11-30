@@ -1,8 +1,8 @@
-@speedaf-vui/login
+@uiv-admin/login
 ===
 
 登录界面
 
 ```bash
-npm i @speedaf-vui/login
+npm i @uiv-admin/login
 ```

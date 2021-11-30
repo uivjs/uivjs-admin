@@ -1,23 +1,6 @@
 <template>
-  <div>
-    <s-login title="猎豹系统登录界面"></s-login>
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view></router-view>
-  </div>
+  <router-view></router-view>
 </template>
-<script>
-import { defineComponent } from 'vue'
-import SLogin from '@speedaf-vui/login';
-
-export default defineComponent({
-  components: {
-    SLogin,
-  }
-});
-</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

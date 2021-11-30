@@ -8,8 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@speedaf-vui/base-layout": "1.0.0",
-    "@speedaf-vui/login": "1.0.0",
+    "@uiv-admin/base-layout": "1.0.0",
+    "@uiv-admin/login": "1.0.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"

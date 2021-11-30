@@ -1,11 +1,11 @@
-@speedaf-vui/base-layout
+@uiv-admin/base-layout
 ===
 
 ```bash
-npm i @speedaf-vui/base-layout
+npm i @uiv-admin/base-layout
 ```
 
 ```js
-import BaseLayout from '@speedaf-vui/base-layout'
+import BaseLayout from '@uiv-admin/base-layout'
 
 ```

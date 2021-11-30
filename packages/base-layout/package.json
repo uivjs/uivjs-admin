@@ -1,5 +1,5 @@
 {
-  "name": "@speedaf-vui/base-layout",
+  "name": "@uiv-admin/base-layout",
   "version": "1.0.0",
   "description": "基础布局组件",
   "main": "./cjs/index.js",

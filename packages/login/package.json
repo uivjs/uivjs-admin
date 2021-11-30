@@ -1,5 +1,5 @@
 {
-  "name": "@speedaf-vui/login",
+  "name": "@uiv-admin/login",
   "version": "1.0.0",
   "description": "登录页面组件",
   "main": "./cjs/index.js",

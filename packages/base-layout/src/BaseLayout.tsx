@@ -5,7 +5,10 @@ export const BaseLayout =  defineComponent({
   props: {},
   render() {
     return (
-      <div>Base Layout</div>
+      <div>
+        <div>Base Layout</div>
+        <router-view></router-view>
+      </div>
     );
   }
 });
