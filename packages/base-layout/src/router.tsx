@@ -14,7 +14,7 @@ export const router = (routes = [], options: RouterOptions = {}) => {
   
   router.beforeEach(async (to, from, next) => {
     // determine whether the user has logged in
-    const hasToken = getToken();
+    const hasToken = getToken() as unknown as string;
     if (hasToken) {
       next();
     } else {
