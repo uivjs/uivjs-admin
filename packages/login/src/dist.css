@@ -2,6 +2,14 @@ body, html {
   background-color: #fff;
 }
 
+:root {
+  --color-btn-login-text: #ffffff;
+  --color-btn-login-bg: #FE7B00;
+  --color-btn-login-hover-text: #ffffff;
+  --color-btn-login-hover-bg: #db6a00;
+  --color-btn-login-active-bg: #d94c00;
+}
+
 .uiv-login-wrapper {
   display: flex;
   min-height: 100vh;
@@ -59,7 +67,7 @@ body, html {
 }
 
 .uiv-login-form input:hover, .uiv-login-form input:active, .uiv-login-form input:focus {
-  box-shadow: 0 0 0 1px #fd7a00, 0 0 0 3px rgb(57 62 72 / 0%), inset 0 1px 1px rgb(16 22 26 / 20%);
+  box-shadow: 0 0 0 1px var(--color-btn-login-hover-bg), 0 0 0 3px rgb(57 62 72 / 0%), inset 0 1px 1px rgb(16 22 26 / 20%);
 }
 
 .uiv-login-button {
@@ -78,7 +86,7 @@ body, html {
   justify-content: center;
   border: none;
   border-radius: 3px;
-  background-color: #FE7B00;
+  background-color: var(--color-btn-login-bg);
   position: relative;
   vertical-align: middle;
   transition: background-color .5s, opacity 1s;
@@ -87,12 +95,12 @@ body, html {
   min-height: 30px;
   cursor: pointer;
   padding: 5px 7px;
-  color: #fff;
+  color: var(--color-btn-login-text);
 }
 .uiv-login-button button:hover {
-  background-color: #db6a00;
+  background-color: var(--color-btn-login-hover-bg);
   z-index: 2;
 }
 .uiv-login-button button:active {
-  background-color: #d94c00;
+  background-color: var(--color-btn-login-active-bg);
 }
