@@ -1,0 +1,25 @@
+body, html {
+  background-color: #FFC69F;
+}
+
+.uiv-login-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+.uiv-login-wrapper > div:first-child {
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+.uiv-login-wrapper > div:last-child {
+  max-width: 680px;
+  min-width: 320px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.uiv-login-logo {
+}

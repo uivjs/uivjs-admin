@@ -1,17 +1,16 @@
-
-
+uiv admin
+===
 
 ```bash
 .
 ├── README.md
-├── example    # 实例预览
+├── example     # 实例预览
 ├── lerna.json
 ├── package.json
 ├── packages    # 放置 包的地方
 ├── tsconfig.json
 └── yarn.lock
 ```
-
 
 1. 在根 `.` 安装依赖
 

@@ -1,6 +1,19 @@
 const path = require(`path`);
+const pkg = require('./package.json');
 
 module.exports = {
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      // 模板来源
+      template: 'public/index.html',
+      // 在 dist/index.html 的输出
+      // filename: 'index.html',
+      title: 'uiv admin',
+      description: pkg.description,
+      keywordss: pkg.keywords.join(','),
+    },
+  },
   configureWebpack: {
     resolve: {
       symlinks: false,
