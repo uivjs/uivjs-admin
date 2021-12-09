@@ -41,7 +41,7 @@ export default defineComponent({
     return () => {
       const { onSubmit, onReset, onChange, onBlur, onFocus } = props;
       return (
-        <form {...{ onSubmit, onReset, onChange, onBlur, onFocus }}>
+        <form class="uiv-login-form" {...{ onSubmit, onReset, onChange, onBlur, onFocus }}>
           <h2>{props.title}</h2>
           <div>
             <label>
@@ -53,7 +53,7 @@ export default defineComponent({
               <input type="password" name="password" value={props.password} placeholder="请输入密码" />
             </label>
           </div>
-          <div>
+          <div class="uiv-login-button">
             <button type="submit">登录</button>
             {!!props.onReset && (
               <button type="reset">Reset</button>
