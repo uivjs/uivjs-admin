@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "lerna exec \"npm run serve\" --scope uivjs-admin",
+    "build:doc": "lerna exec \"npm run build\" --scope uivjs-admin",
     "build": "lerna exec \"tsbb build --use-vue\" --scope @uivjs/*",
     "watch:login": "lerna exec \"tsbb watch --use-vue\" --scope @uivjs/admin-login",
     "watch:base-layout": "lerna exec \"tsbb watch --use-vue\" --scope @uivjs/admin-base-layout",
