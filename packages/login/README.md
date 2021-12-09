@@ -3,9 +3,13 @@
 
 登录界面
 
+## 安装
+
 ```bash
 npm i @uiv-admin/login
 ```
+
+## 使用
 
 ```vue
 <template>
@@ -46,5 +50,4 @@ export default {
   },
 }
 </script>
-
 ```
