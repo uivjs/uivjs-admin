@@ -2,10 +2,17 @@
   "name": "@uivjs/admin-login",
   "version": "1.0.0",
   "description": "登录页面组件",
+  "repository": "https://github.com/uivjs/uivjs-admin",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
-  "author": "jaywcjlove",
-  "license": "ISC",
+  "license": "MIT",
+  "keywords": [
+    "login",
+    "uiv",
+    "uivjs",
+    "vue3",
+    "vue"
+  ],
   "peerDependencies": {
     "vue": ">=3.0.0"
   },
