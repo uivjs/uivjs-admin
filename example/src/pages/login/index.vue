@@ -6,7 +6,6 @@
 import Login from '@uiv-admin/login';
 
 export default {
-  name: 'Home',
   components: {
     Login,
   },
@@ -30,8 +29,6 @@ export default {
       console.group('reset')
       console.log(':==>', data.get('username'))
       console.log(':==>', data.get('password'))
-      // console.log(':==>', data.delete('username'))
-      // console.log(':==>', data.delete('password'))
       console.log('>>>', value)
       console.dir(data)
       console.groupEnd()
