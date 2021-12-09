@@ -56,7 +56,7 @@ export default defineComponent({
           <div class="uiv-login-button">
             <button type="submit">登录</button>
             {!!props.onReset && (
-              <button type="reset">Reset</button>
+              <button type="reset">重置</button>
             )}
           </div>
         </form>

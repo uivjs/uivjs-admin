@@ -7,13 +7,14 @@ body, html {
   min-height: 100vh;
 }
 .uiv-login-wrapper > div:first-child {
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   flex: 1;
 }
 .uiv-login-wrapper > div:last-child {
   max-width: 680px;
-  min-width: 320px;
+  min-width: 420px;
   background-color: #fff;
   display: flex;
   align-items: center;

@@ -17,12 +17,12 @@ const login = {
 };
 
 type ExtractPublicPropTypes<T> = Omit<Partial<ExtractPropTypes<T>>, Extract<keyof T, `internal${string}`>>;
-export type MarkdownPreviewProps = ExtractPublicPropTypes<typeof login>;
+export type LoginProps = ExtractPublicPropTypes<typeof login>;
 
 export default defineComponent({
   name: 'uiv-login',
   props: login,
-  setup(props) {
+  setup(props, { slots }) {
     return () => {
       const { title, password, username, onSubmit, onReset, bgURL, logoURL } = props;
       return (
@@ -32,7 +32,9 @@ export default defineComponent({
             <div class="uiv-login-logo">
               <img src={logoURL || logo} />
             </div>
-            <Form {...{ title, password, username, onSubmit, onReset }}/>
+            {slots.default ? slots.default() : (
+              <Form {...{ title, password, username, onSubmit, onReset }}/>
+            )}
           </div>
         </div>
       )
