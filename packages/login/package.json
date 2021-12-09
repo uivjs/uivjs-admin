@@ -1,5 +1,5 @@
 {
-  "name": "@uiv-admin/login",
+  "name": "@uivjs/admin-login",
   "version": "1.0.0",
   "description": "登录页面组件",
   "main": "./cjs/index.js",

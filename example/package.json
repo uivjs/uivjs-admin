@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "uivjs-admin",
   "version": "1.0.0",
   "description": "uiv admin project.",
   "private": true,
@@ -9,8 +9,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@uiv-admin/base-layout": "1.0.0",
-    "@uiv-admin/login": "1.0.0",
+    "@uivjs/admin-base-layout": "1.0.0",
+    "@uivjs/admin-login": "1.0.0",
     "@uiw/reset.css": "1.0.5",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",

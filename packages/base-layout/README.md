@@ -1,11 +1,11 @@
-@uiv-admin/base-layout
+@uivjs/admin-base-layout
 ===
 
 ```bash
-npm i @uiv-admin/base-layout
+npm i @uivjs/admin-base-layout
 ```
 
 ```js
-import BaseLayout from '@uiv-admin/base-layout'
+import BaseLayout from '@uivjs/admin-base-layout'
 
 ```

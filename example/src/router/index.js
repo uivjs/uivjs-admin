@@ -1,6 +1,6 @@
-import { BaseLayout, NotFound, router } from '@uiv-admin/base-layout'
+import { BaseLayout, NotFound, router } from '@uivjs/admin-base-layout'
 // import Authorized from '../components/Authorized.vue'
-// import SLogin from '@uiv-admin/login';
+// import SLogin from '@uivjs/admin-login';
 
 const routes = [
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },

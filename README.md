@@ -15,8 +15,8 @@ uiv admin
 ├── lerna.json
 ├── package.json
 ├── packages
-│   ├── base-layout  # 包 @uiv-admin/base-layout 的源码
-│   └── login        # 包 @uiv-admin/login 的源码
+│   ├── base-layout  # 包 @uivjs/admin-base-layout 的源码
+│   └── login        # 包 @uivjs/admin-login 的源码
 └── tsconfig.json
 ```
 

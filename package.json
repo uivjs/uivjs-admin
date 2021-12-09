@@ -1,10 +1,9 @@
 {
-  "name": "uiv-admin",
   "scripts": {
     "start": "lerna exec \"npm run serve\" --scope hello-world",
-    "build": "lerna exec \"tsbb build --use-vue\" --scope @uiv-admin/*",
-    "watch:login": "lerna exec \"tsbb watch --use-vue\" --scope @uiv-admin/login",
-    "watch:base-layout": "lerna exec \"tsbb watch --use-vue\" --scope @uiv-admin/base-layout",
+    "build": "lerna exec \"tsbb build --use-vue\" --scope @uivjs/*",
+    "watch:login": "lerna exec \"tsbb watch --use-vue\" --scope @uivjs/admin-login",
+    "watch:base-layout": "lerna exec \"tsbb watch --use-vue\" --scope @uivjs/admin-base-layout",
     "clean": "lerna clean --yes",
     "hoist": "lerna bootstrap --hoist",
     "bootstrap": "lerna bootstrap"

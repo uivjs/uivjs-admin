@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Login from '@uiv-admin/login';
+import Login from '@uivjs/admin-login';
 
 export default {
   components: {
