@@ -1,5 +1,5 @@
 <template>
-  <login title="请登录" @submit="submit" @reset="reset" />
+  <login title="请登录" username="admin" @submit="submit" @reset="reset" />
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
   },
   methods: {
     submit(e) {
-      e.preventDefault()
+      // e.preventDefault()
       const data = new FormData(e.target);
       const value = Object.fromEntries(data.entries());
       console.group('submit')
