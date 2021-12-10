@@ -1,13 +1,19 @@
 <template>
-  <login title="请登录" username="admin" @submit="submit" @reset="reset" />
+  <login title="请登录" :username="username" password="wsdW23" @submit="submit" ref="login" />
 </template>
 
 <script>
+import { defineComponent } from 'vue';
 import Login from '@uivjs/admin-login';
 
-export default {
+export default defineComponent({
   components: {
     Login,
+  },
+  data() {
+    return {
+      username: 'admin',
+    }
   },
   methods: {
     submit(e) {
@@ -15,6 +21,9 @@ export default {
       const data = new FormData(e.target);
       const value = Object.fromEntries(data.entries());
       console.group('submit')
+      console.log(':=1ref=>', this.refs)
+      console.log(':=2ref=>', this.$refs.login.bgURL)
+      // console.log(':=ref=>', )
       console.log(':==>', data)
       console.log(':==>', value)
       console.log(':==>', data.get('username'))
@@ -34,5 +43,5 @@ export default {
       console.groupEnd()
     }
   },
-}
+});
 </script>

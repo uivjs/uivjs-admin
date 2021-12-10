@@ -120,3 +120,7 @@ export default {
 }
 </script>
 ```
+
+## License
+
+Licensed under the MIT License.

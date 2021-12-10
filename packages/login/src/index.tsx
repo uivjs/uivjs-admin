@@ -9,9 +9,11 @@ import logo from './logo.png';
 const login = {
   bgURL: {
     type: String,
+    default: bg
   },
   logoURL: {
     type: String,
+    default: logo
   },
   ...form
 };
@@ -27,10 +29,10 @@ export default defineComponent({
       const { title, password, username, onSubmit, onReset, bgURL, logoURL } = props;
       return (
         <div class="uiv-login-wrapper" style={{}}>
-          <div style={{ backgroundImage: `url(${bgURL || bg})`}} />
+          <div style={{ backgroundImage: `url(${bgURL})`}} />
           <div>
             <div class="uiv-login-logo">
-              <img src={logoURL || logo} />
+              <img src={logoURL} />
             </div>
             {slots.default ? slots.default() : (
               <Form {...{ title, password, username, onSubmit, onReset }}/>
