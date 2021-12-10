@@ -43,7 +43,8 @@ npm run build
 4. 监听编译包
 
 ```bash
-npm run watch:login
+npm run watch:login       # 📦 @uivjs/admin-login
+npm run watch:base-layout # 📦 @uivjs/admin-base-layout
 ```
 
 5. 运行实例

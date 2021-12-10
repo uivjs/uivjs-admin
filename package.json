@@ -5,6 +5,7 @@
     "build": "lerna exec \"tsbb build --use-vue\" --scope @uivjs/*",
     "watch:login": "lerna exec \"tsbb watch --use-vue\" --scope @uivjs/admin-login",
     "watch:base-layout": "lerna exec \"tsbb watch --use-vue\" --scope @uivjs/admin-base-layout",
+    "rm": "lerna exec \"rm -rf package-lock.json\" --scope @uivjs/* --scope uivjs-admin",
     "clean": "lerna clean --yes",
     "hoist": "lerna bootstrap --hoist",
     "bootstrap": "lerna bootstrap"
