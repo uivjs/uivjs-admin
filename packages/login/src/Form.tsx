@@ -1,4 +1,4 @@
-import { defineComponent, ExtractPropTypes, PropType, h, reactive, watch } from 'vue';
+import { defineComponent, ExtractPropTypes, PropType, h, reactive, watch ,getCurrentInstance} from 'vue';
 import Validator, { Values } from 'validator.tool';
 
 export const form = {
@@ -43,7 +43,7 @@ export type LoginFormProps = ExtractPublicPropTypes<typeof form>;
 
 export default defineComponent({
   props: form,
-  setup(props, { }) {
+  setup(props, {emit}) {
     const { onSubmit, onInput } = props;
     const errmsg = reactive({ username: '', password: '' });
     const validator = new Validator({
@@ -56,6 +56,7 @@ export default defineComponent({
           validate: (val = '') => typeof val === 'string' && !/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,10}$/.test(val) ? '必须包含大小写字母和数字的组合，长度在 6-10 之间！' : ''
         }
       }
+
     });
     watch(() => props.username, (current) => {
       validator.message('username', current);
@@ -63,6 +64,7 @@ export default defineComponent({
     watch(() => props.password, (current) => {
       validator.message('password', current);
     });
+    const {proxy}:any=getCurrentInstance()
     const handleSubmit = (e: Event) => {
       e.preventDefault();
       const valid = validator.allValid()
@@ -75,6 +77,8 @@ export default defineComponent({
       if (valid) {
         onSubmit && onSubmit(e, values);
       }
+      proxy.$parent.onSubmit(validator)
+      return {proxy,validator}
     }
     const handleInput = (env: Event | InputEvent) => {
       const target = env.target as HTMLInputElement;
@@ -113,6 +117,6 @@ export default defineComponent({
           </div>
         </form>
       );
-    }
+    };
   },
 });
