@@ -1,5 +1,60 @@
 .uiv-base-layout-wrapper {
-  min-height: 100vh;
+  min-height: 100vh !important;
   position: relative;
   background-color: #F1F1F1;
+}
+
+.uiv-base-layout-menu {
+  width: 208px;
+  padding-top: 52px;
+}
+
+.uiv-base-layout-fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  right: 0px;
+}
+
+.uiv-base-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.uiv-base-layout-sider-links {
+  /* padding: 0 calc(50% - 16px/2); */
+  left: 0;
+  display: flex;
+  cursor: pointer;
+  padding: 6px 0 6px 10px;
+  text-overflow: clip;
+  color: rgba(0, 0, 0, .85);
+}
+.uiv-base-layout-sider-fixed {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  box-shadow: 2px 0 8px 0 rgb(29 35 41 / 5%);
+  background-color: #fff !important;
+}
+
+.uiv-layout a {
+  text-decoration: none;
+}
+.uiv-layout {
+  background: #eff2f5 !important;
+}
+.uiv-layout-header a {
+  display: flex;
+  align-items: center;
+}
+.uiv-layout-header h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0 0 12px;
 }

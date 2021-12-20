@@ -1,6 +1,10 @@
-import { BaseLayout, NotFound, router } from '@uivjs/admin-base-layout'
-// import Authorized from '../components/Authorized.vue'
-// import SLogin from '@uivjs/admin-login';
+import { BaseLayout, NotFound, router } from '@uivjs/admin-base-layout';
+
+const layout = {
+  menus: () => <div>Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu</div>,
+  header: () => <div>Header</div>,
+  footer: () => <div>Footer</div>,
+}
 
 const routes = [
   { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
@@ -20,7 +24,9 @@ const routes = [
   },
   {
     path: '/',
-    component: BaseLayout,
+    component: () => (
+      <BaseLayout title="Vue Admin" v-slots={layout} />
+    ),
     redirect: '/home',
     children: [
       {
