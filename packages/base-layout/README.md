@@ -21,6 +21,18 @@ const Layout = () => (
 );
 ```
 
+组件 `BaseLayout`，你可以进行自定义默认插槽 `slots.default=router-view`。
+
+```jsx
+const Layout = () => (
+  <BaseLayout {...}>
+    <div class="warpper">
+      <router-view />
+    </div>
+  </BaseLayout>
+);
+```
+
 ## NotFound
 
 路由不存在默认页面。
