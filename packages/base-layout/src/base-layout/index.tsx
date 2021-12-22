@@ -65,8 +65,8 @@ export const BaseLayout = defineComponent({
                 <Logo src={props.logoSrc} />
                 <h1>{props.title}</h1>
               </RouterLink>
-              <div>
-                {slots.footer ? slots.footer() : ''}
+              <div class="uiv-base-layout-header-right">
+                {slots.header ? slots.header() : ''}
               </div>
             </Header>
             <Content>

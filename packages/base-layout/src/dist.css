@@ -40,6 +40,9 @@
   z-index: 100;
   right: 0px;
 }
+.uiv-base-layout-header-right {
+  color: #fff;
+}
 
 .uiv-layout a {
   text-decoration: none;
@@ -48,7 +51,6 @@
   background: #eff2f5 !important;
 }
 .uiv-layout-header {
-  color: #fff !important;
   display: flex;
   justify-content: space-between;
 }

@@ -1,9 +1,9 @@
 import { BaseLayout, NotFound, router } from '@uivjs/admin-base-layout';
 
 const layout = {
-  menus: () => <div>Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu</div>,
-  header: () => <div>Header</div>,
-  footer: () => <div>Footer</div>,
+  menus: () => <div> Slots Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu <br /> Menu</div>,
+  header: () => <div>Slots Header</div>,
+  footer: () => <div>Slots Footer</div>,
 }
 
 const routes = [

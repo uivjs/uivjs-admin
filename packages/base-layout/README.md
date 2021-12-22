@@ -97,3 +97,26 @@ const routes = [
 ];
 export default router(routes);
 ```
+
+## getToken
+
+```tsx
+import { getToken } from '@uivjs/admin-base-layout';
+
+export declare function getToken(): void;
+```
+## getToken
+
+```tsx
+import { setToken } from '@uivjs/admin-base-layout';
+
+export declare function setToken(token: string): void;
+```
+
+## getToken
+
+```tsx
+import { removeToken } from '@uivjs/admin-base-layout';
+
+export declare function removeToken(): void;
+```
