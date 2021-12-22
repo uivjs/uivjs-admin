@@ -2,6 +2,7 @@ const path = require(`path`);
 const pkg = require('./package.json');
 
 module.exports = {
+  publicPath: '/uivjs-admin/',
   pages: {
     index: {
       entry: 'src/main.js',
