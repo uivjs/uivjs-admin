@@ -121,6 +121,22 @@ export default {
 </script>
 ```
 
+### Login Props
+
+Name | Type | Default | Description
+---- | ---- | ---- | ----
+bgURL | `string` | - | 背景图片
+logoURL | `string` | - | Logo 地址
+title | `string` | `登录` | 表单标题
+username | `string` | - | 用户名
+password | `string` | - | 密码
+onSubmit | `(e: Event, data: Values) => void` | - | 提交表单时触发
+onReset | `(e: Event) => void` | - | 当收到一个 [`reset`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset_event) 事件时触发
+onChange | `(e: Event) => void` | - | 取或设置当前元素的 `change` 事件的事件处理函数.
+onInput | `(e: Event) => void` | - | 表单输入触发
+onBlur | `(e: Event) => void` | - | 输入框失去焦点触发
+onFocus | `(e: Event) => void` | - | 输入框获取焦点触发
+
 ## License
 
 Licensed under the MIT License.

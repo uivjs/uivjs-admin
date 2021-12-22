@@ -120,3 +120,7 @@ import { removeToken } from '@uivjs/admin-base-layout';
 
 export declare function removeToken(): void;
 ```
+
+## License
+
+Licensed under the MIT License.

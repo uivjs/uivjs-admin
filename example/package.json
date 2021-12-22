@@ -1,7 +1,7 @@
 {
   "name": "uivjs-admin",
   "version": "1.0.0",
-  "description": "uiv admin project.",
+  "description": "Vue 3.0 admin management system template.",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
