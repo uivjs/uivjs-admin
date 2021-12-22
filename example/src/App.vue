@@ -1,6 +1,6 @@
 <template>
 <div>
-  <github-corners fixed target="__blank" size="65" zIndex="9999" href="https://uivjs.github.io/uivjs-admin" />
+  <github-corners fixed target="__blank" size="51" zIndex="9999" href="https://github.com/uivjs/uivjs-admin" />
   <router-view />
 </div>
 </template>
