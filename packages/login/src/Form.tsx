@@ -38,8 +38,7 @@ export const form = {
   },
 };
 
-export type ExtractPublicPropTypes<T> = Omit<Partial<ExtractPropTypes<T>>, Extract<keyof T, `internal${string}`>>;
-export type LoginFormProps = ExtractPublicPropTypes<typeof form>;
+export type FormProps = ExtractPropTypes<typeof form>;
 
 export default defineComponent({
   props: form,

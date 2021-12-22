@@ -7,6 +7,8 @@ npm i @uivjs/admin-base-layout
 
 ## BaseLayout
 
+### BaseLayout Slots
+
 ```js
 import { BaseLayout } from '@uivjs/admin-base-layout';
 
@@ -21,7 +23,9 @@ const Layout = () => (
 );
 ```
 
-组件 `BaseLayout`，你可以进行自定义默认插槽 `slots.default=router-view`。
+### BaseLayout default Slots
+
+组件 `BaseLayout`，你可以进行自定义默认插槽 `slots.default=<router-view />`。
 
 ```jsx
 const Layout = () => (
@@ -32,6 +36,15 @@ const Layout = () => (
   </BaseLayout>
 );
 ```
+
+### BaseLayout Props
+
+Name | Type | Default | Description
+---- | ---- | ---- | ----
+title | `string` | `Vue Admin` | 标题
+logoSrc | `string` | `-` | Logo 地址
+collapsed | `boolean` | `false` | Sider 菜单收起状态
+onCollapsed | `(e: MouseEvent, collapsed: boolean) => void` | `` | Sider 收起事件
 
 ## NotFound
 
@@ -70,9 +83,7 @@ const routes = [
   },
   {
     path: '/',
-    component: () => (
-      <BaseLayout title="Vue Admin" v-slots={layout} />
-    ),
+    component: <BaseLayout title="Vue Admin" v-slots={layout} />,
     redirect: '/home',
     children: [
       {

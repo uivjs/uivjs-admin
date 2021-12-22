@@ -18,9 +18,7 @@ const login = {
   ...form
 };
 
-type ExtractPublicPropTypes<T> = Omit<Partial<ExtractPropTypes<T>>, Extract<keyof T, `internal${string}`>>;
-export type LoginProps = ExtractPublicPropTypes<typeof login>;
-
+export type LoginProps = ExtractPropTypes<typeof login>;
 export default defineComponent({
   name: 'uiv-login',
   props: login,

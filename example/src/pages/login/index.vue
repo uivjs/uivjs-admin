@@ -7,21 +7,21 @@ import { defineComponent,ref } from 'vue';
 import Login from '@uivjs/admin-login';
 
 export default defineComponent({
-      components: {
-        Login,
-      },
-      data() {
-        return {
-          username: 'admin',
-        }
-      },
-      setup(){
-        const login = ref(null);
-        const submit = (e) => {
-          console.log('1111',e)
-        }
-        return { login, submit} 
-      } 
+  components: {
+    Login,
+  },
+  data() {
+    return {
+      username: 'admin',
+    }
+  },
+  setup(){
+    const login = ref(null);
+    const submit = (e) => {
+      console.log('1111',e)
+    }
+    return { login, submit }
+  }
   // methods: {
   //   submit(e) {
   //     // e.preventDefault()

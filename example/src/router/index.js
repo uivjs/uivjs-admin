@@ -24,9 +24,7 @@ const routes = [
   },
   {
     path: '/',
-    component: () => (
-      <BaseLayout title="Vue Admin" v-slots={layout} />
-    ),
+    component: <BaseLayout title="Vue Admin" v-slots={layout} onCollapsed={() => console.log('goood')} />,
     redirect: '/home',
     children: [
       {
