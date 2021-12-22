@@ -1,14 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router';
 import { getToken } from './auth';
 
 type RouterOptions = {
   whiteList?: string[];
+  /** Hash Mode */
+  hashRoute?: boolean;
 }
 
 export const router = (routes = [], options: RouterOptions = {}) => {
-  const { whiteList = ['/login', '/auth-redirect'] } = options;
+  const { whiteList = ['/login', '/auth-redirect'], hashRoute = true } = options;
   const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: hashRoute ? createWebHashHistory(process.env.BASE_URL) : createWebHistory(process.env.BASE_URL),
     routes
   });
   
