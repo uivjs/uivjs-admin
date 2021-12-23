@@ -4,6 +4,7 @@
     "startScript": "serve",
     "node": "16"
   },
+  "template": "vue-cli",
   "hardReloadOnChange": true,
   "infiniteLoopProtection": true
 }
