@@ -56,6 +56,16 @@ npm run watch:base-layout # 📦 @uivjs/admin-base-layout
 npm run start
 ```
 
+## Packages
+
+This git repository is a repo built using Lerna. It contains several packages:
+
+
+Package | Version | Description
+---- | ---- | ----
+[`@uivjs/admin-login`](https://www.npmjs.com/package/@uivjs/admin-login) | [![npm](https://img.shields.io/npm/v/@uivjs/admin-login.svg?maxAge=3600)](https://www.npmjs.com/package/@uivjs/admin-login) | - 
+[`@uivjs/admin-base-layout`](https://www.npmjs.com/package/@uivjs/admin-base-layout) | [![npm](https://img.shields.io/npm/v/@uivjs/admin-base-layout.svg?maxAge=3600)](https://www.npmjs.com/package/@uivjs/admin-base-layout) | - 
+
 ## License
 
 Licensed under the MIT License.
