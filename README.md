@@ -3,53 +3,53 @@ uiv admin
 
 Vue 3.0 admin management system template.
 
-## 目录说明
+## Description
 
 ```bash
 .
 ├── README.md
-├── example     # 实例预览
-│   ├── README.md
-│   ├── package.json
-│   ├── public
-│   ├── src
-│   └── vue.config.js
+├── example          # Example preview
+│   ├── README.md
+│   ├── package.json
+│   ├── public
+│   ├── src
+│   └── vue.config.js
 ├── lerna.json
 ├── package.json
 ├── packages
-│   ├── base-layout  # 包 @uivjs/admin-base-layout 的源码
-│   └── login        # 包 @uivjs/admin-login 的源码
+│   ├── base-layout  # Source code of package @uivjs/admin-base-layout
+│   └── login        # Source code of package @uivjs/admin-login
 └── tsconfig.json
 ```
 
-## 开发
+## Development
 
-1. 在根 `.` 安装依赖
+1. Install dependencies in the root directory `.`
 
 ```bash
 npm install
 ```
 
-2. 安装包依赖
+2. Installation package dependencies
 
 ```bash
 npm run bootstrap
 ```
 
-3. 编译包
+3. Compile package
 
 ```bash
 npm run build
 ```
 
-4. 监听编译包
+4. Monitor the compiled package
 
 ```bash
 npm run watch:login       # 📦 @uivjs/admin-login
 npm run watch:base-layout # 📦 @uivjs/admin-base-layout
 ```
 
-5. 运行实例
+5. Run [example](./example/README.md)
 
 ```bash
 # 或者根目录运行
