@@ -1,3 +1,3 @@
 import { h } from 'vue';
 
-export const NotFound = <div>Not Found</div>
+export const NotFound = <div>Not Found</div>;

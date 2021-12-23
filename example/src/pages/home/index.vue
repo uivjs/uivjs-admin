@@ -1,17 +1,102 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../../assets/logo.png">
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
-    <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World <br /> Hello World
+    <img alt="Vue logo" src="../../assets/logo.png" />
+    <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World <br />
+    Hello World
   </div>
 </template>
 
@@ -23,6 +108,6 @@ export default {
   name: 'Home',
   components: {
     // HelloWorld
-  }
-}
+  },
+};
 </script>
