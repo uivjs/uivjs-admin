@@ -99,7 +99,8 @@ jobs:
             echo "<tr>"
             echo "<td>${ICON}</td>"
             echo "<td><a href=\"${file}\">$file</a></td>"
-            echo "<td><a target=\"__blank\" href=\"$GITHUBREADME${file//.zip/}\">Document</a></td>"
+            echo "<td><a href=\"https://uivjs.gitee.io/uivjs-admin/zip/${file}\">🇨🇳 $file</a></td>"
+            echo "<td><a target=\"__blank\" href=\"$GITHUBREADME\">Document</a></td>"
             echo "</tr>"
           done)
             </tbody>
