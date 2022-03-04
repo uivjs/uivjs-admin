@@ -25,6 +25,12 @@ jobs:
         working-directory: example
       - run: cp -rp example/example.zip ./zip
 
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@v1.3.6
+        with:
+          package-path: ./example/package.json
+
       - name: Compress Vue Admin Example Download webpage.
         working-directory: zip
         run: |
@@ -94,11 +100,6 @@ jobs:
 
       - run: cp -rp ./zip ./example/dist
 
-      - name: Create Tag
-        id: create_tag
-        uses: jaywcjlove/create-tag-action@v1.3.6
-        with:
-          package-path: ./example/package.json
 
       - name: get tag version
         id: tag_version
