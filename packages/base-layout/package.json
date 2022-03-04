@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@uivjs/vue-layout": "^1.1.0",
-    "cookiejs": "2.0.1",
+    "cookiejs": "~2.0.1",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {

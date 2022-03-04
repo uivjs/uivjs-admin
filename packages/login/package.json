@@ -14,7 +14,7 @@
     "vue"
   ],
   "dependencies": {
-    "validator.tool": "2.2.2"
+    "validator.tool": "~2.2.2"
   },
   "peerDependencies": {
     "vue": ">=3.0.0"

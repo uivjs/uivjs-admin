@@ -9,10 +9,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@uivjs/admin-base-layout": "1.1.0",
-    "@uivjs/admin-login": "1.1.0",
-    "@uivjs/vue-github-corners": "1.0.1",
-    "@uiw/reset.css": "1.0.5",
+    "@uivjs/admin-base-layout": "~1.1.0",
+    "@uivjs/admin-login": "~1.1.0",
+    "@uivjs/vue-github-corners": "~1.0.1",
+    "@uiw/reset.css": "~1.0.5",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
