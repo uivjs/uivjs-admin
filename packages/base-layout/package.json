@@ -1,6 +1,6 @@
 {
   "name": "@uivjs/admin-base-layout",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "基础布局组件",
   "repository": "https://github.com/uivjs/uivjs-admin",
   "main": "./cjs/index.js",

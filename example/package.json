@@ -1,6 +1,6 @@
 {
   "name": "uivjs-admin",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Vue 3.0 admin management system template.",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@uivjs/admin-base-layout": "1.1.1",
-    "@uivjs/admin-login": "1.1.1",
+    "@uivjs/admin-base-layout": "1.1.2",
+    "@uivjs/admin-login": "1.1.2",
     "@uivjs/vue-github-corners": "~1.0.1",
     "@uiw/reset.css": "~1.0.5",
     "core-js": "^3.6.5",
